@@ -1,0 +1,83 @@
+.direction-cell {
+  .fas.fa-arrow-down {
+    color: red;
+  }
+  .fas.fa-arrow-up {
+    color: green;
+  }
+  width: 2%;
+}
+.asset-cell{
+  width: 10%;
+  .cell-wrapper {
+    display: flex;
+    align-items: center;
+    img {
+      width: 18px;
+      height: 18px;
+      min-width: 18px;
+      border-radius: 50%;
+    }
+    span {
+      font-size: 1rem;
+      font-weight: bold;
+      margin-left: 5px;
+      color: #212529;
+    }
+  }
+}
+.asset-symbol-cell {
+  font-size: 1rem;
+  font-weight: normal;
+  color: #495057;
+  text-transform: uppercase;
+  width: 7%;
+}
+.influencer-cell {
+  width: 15% !important;
+  .cell-wrapper {
+    display: flex;
+    align-items: center;
+    img {
+      width: 32px;
+      height: 32px;
+      min-width: 32px;
+      border-radius: 50%;
+      margin-right: 5px;
+    }
+    .influencer-name {
+      font-size: 0.85rem;
+      font-weight: bold;
+      color: #212529;
+    }
+    .influencer-handle {
+      font-size: 0.85rem;
+      font-weight: normal;
+      color: #212529;
+    }
+  }
+}
+.timestamp-cell {
+  width: 3%;
+}
+.post_contents-cell {
+  width: 50% !important;
+  padding-left: 0;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #212529;
+}
+.show-details-cell {
+  text-align: right;
+  i {
+    font-size: 22px;
+    cursor: pointer;
+  }
+}
+.tweet-recent-thClass {
+  display: none !important;
+}
+.tweet-table-row-detail {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}

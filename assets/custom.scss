@@ -1,0 +1,14 @@
+.input-group-append.append-action {
+  cursor: pointer;
+}
+
+.loading-btn {
+  padding: 0 !important;
+  height: 40px;
+}
+
+@media (min-width: 992px){
+  body[data-layout-mode="horizontal"] .content-page.custom {
+    padding-top: 70px;
+  }
+}
